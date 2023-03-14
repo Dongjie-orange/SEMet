@@ -1,2 +1,3 @@
 # SEMet
-Integrative construction of SEMet classifier
+Based on the expression profile of 425 HM-SE genes, univariate Cox analysis combined with the bootstrapping method determined 38 prognostic HM-SE genes that were validated in most of the datasets in our study . Next, these 38 prognostic HM-SE genes were subjected to integrative machine-learning models to construct the SEMet classifier. ICGC-AU-Array dataset, which served as the training set, was applied to fit the 188 algorithm combinations based on ten-fold cross-validation and computed the average C-index in remaining 10 testing datasets. The combination of Enet and survival-SVM achieved the highest average C-index (0.6718) was identified as the optimal model. Moreover, the SEMet score of each sample was calculated in all 14 training and testing cohorts on the basis of 18 SEMet genes incorporated in the SEMet classifier.
+
