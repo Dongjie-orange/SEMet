@@ -37,7 +37,7 @@ load('SE_prog_gene.rds') # load 38 prognostic HM-SE genes
 ####=====================================2. data processing============================================####
 ###########################################################################################################
 
-# z-score normalization of the expression matrix was applied across all dataset
+# z-score normalization of the expression matrix was applied across all dataset z-score normalization
 mm <- cohorts_dat
 
 mm <- lapply(mm,function(x){
