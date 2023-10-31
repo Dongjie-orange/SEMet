@@ -26,8 +26,8 @@ library(tibble)
 library(BART)
 library(future)
 availableCores()  
-suppressWarnings(suppressMessages(future::plan("multiprocess",workers = 40)))
-nbrOfWorkers() 
+#suppressWarnings(suppressMessages(future::plan("multiprocess",workers = 40)))
+#nbrOfWorkers() 
 
 load('cohorts_dat.rds')  # load 11 cohorts (1 training/10 testing set) data
 load('SE_prog_gene.rds') # load 38 prognostic HM-SE genes 
